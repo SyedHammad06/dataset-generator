@@ -120,6 +120,7 @@
 
 .guidelines li {
   margin: 0.2rem;
+  text-shadow: var(--shadow);
 }
 
 .error {
