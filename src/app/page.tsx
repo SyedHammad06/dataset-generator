@@ -189,6 +189,10 @@ export default function Home() {
           <Link href='https://github.com/SyedHammad06' target='_blank'>
             Syed Hammad
           </Link>
+          . Credits{' '}
+          <Link href='https://www.linkedin.com/in/sasi-kiran/' target='_blank'>
+            Sasi Kiran
+          </Link>
         </span>
       </footer>
     </main>

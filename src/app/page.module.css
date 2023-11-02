@@ -2,7 +2,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
   background-color: var(--color-primary);
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
 .header,
 .footer {
   width: 100%;
-  height: 7rem;
+  height: 6.5rem;
   display: grid;
   place-content: center;
   color: var(--color-primary);
@@ -46,7 +46,7 @@
 }
 
 .center {
-  width: 60rem;
+  width: 50rem;
   display: flex;
   flex-direction: column;
   box-shadow: var(--shadow);
@@ -55,11 +55,11 @@
 }
 
 .center input {
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   background: none;
   border: none;
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   background-color: var(--color-secondary);
   text-align: center;
   font-weight: 600;
@@ -71,7 +71,7 @@
 }
 
 .center button {
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   text-align: center;
   font-size: 1.6rem;
   border: none;
@@ -112,7 +112,7 @@
 
 .guidelines {
   position: absolute;
-  top: 11rem;
+  top: 10rem;
   left: 3rem;
   color: rgb(172, 172, 172);
   font-size: 1.2rem;
@@ -125,7 +125,7 @@
 .error {
   position: absolute;
   left: 1rem;
-  bottom: 11rem;
+  bottom: 10rem;
   background-color: var(--accent-color);
   color: var(--color-secondary);
   padding: 1rem 2rem;
