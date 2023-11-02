@@ -142,6 +142,23 @@ export default function Home() {
         <h1>Dataset Generator</h1>
       </header>
       <div className={styles.container}>
+        <div className={styles.guidelines}>
+          <ol>
+            <li>Wait for the website to completely load.</li>
+            <li>
+              After you have entered your register number wait for the website
+              to load your dataset.
+            </li>
+            <li>
+              Remember you cant enter your register number again. Whatever
+              dataset you got is final !
+            </li>
+            <li>
+              The folder contains one excel file (for analysis) and one pdf file
+              that contains questions. Download both and start your analysis.
+            </li>
+          </ol>
+        </div>
         <form className={styles.center} onSubmit={submitNumber}>
           <input
             className={styles.input}

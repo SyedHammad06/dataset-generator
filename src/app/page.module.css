@@ -2,7 +2,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 3rem 0;
+  padding: 2.5rem 0;
   background-color: var(--color-primary);
   display: flex;
   flex-direction: column;
@@ -97,7 +97,7 @@
   transform: translateX(-50%);
   text-align: center;
   color: var(--color-primary);
-  padding: 1rem 1rem;
+  padding: 0.8rem 0.25rem;
   border-radius: 1.5rem;
   background-color: var(--color-secondary);
 }
@@ -107,7 +107,19 @@
 }
 
 .output a {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+}
+
+.guidelines {
+  position: absolute;
+  top: 11rem;
+  left: 3rem;
+  color: rgb(172, 172, 172);
+  font-size: 1.2rem;
+}
+
+.guidelines li {
+  margin: 0.2rem;
 }
 
 .error {
