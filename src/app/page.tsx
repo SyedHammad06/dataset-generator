@@ -166,7 +166,7 @@ export default function Home() {
             placeholder='Enter your register number'
             ref={inputValueRef}
             minLength={8}
-            maxLength={8}
+            maxLength={10}
             required
           />
           <button type='submit' className={styles.button}>
